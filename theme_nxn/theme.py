@@ -51,8 +51,8 @@ def theme_nxn(base_size=11, base_family=""):
             axis_ticks=element_line(color=charcoal),
             
             # Legend styling
-            legend_background=element_rect(fill="white", color=None),
-            legend_key=element_rect(fill="white", color=None),
+            legend_background=element_rect(fill="white", color=None, size=0),
+            legend_key=element_rect(fill="white", color=None, size=0),
         )
     )
 
