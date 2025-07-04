@@ -39,7 +39,7 @@ def theme_nxn(base_size=11, base_family=""):
             
             # Use charcoal instead of black for text elements
             text=element_text(color=charcoal),
-            plot_title=element_text(color=charcoal),
+            plot_title=element_text(color=charcoal, hjust=0),
             axis_title=element_text(color=charcoal),
             axis_text=element_text(color=charcoal),
             legend_text=element_text(color=charcoal),
