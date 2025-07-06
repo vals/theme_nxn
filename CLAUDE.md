@@ -31,12 +31,11 @@ theme_nxn/
 - Charcoal color (#242323) for all text, axes, titles, labels
 
 ### Color Palette
-8-color harmonious discrete palette:
+7-color harmonious discrete palette:
 
 **Base Colors:**
 - Charcoal: `#242323`
 - Coral: `#ED746B` 
-- Sand: `#E5D3B8`
 - Teal: `#0E6F82`
 
 **Extended Colors:**
@@ -87,5 +86,5 @@ set_theme_nxn()
 
 ### Constants
 - `NXN_COLORS` - Base color dictionary
-- `NXN_PALETTE` - Full 8-color palette list
+- `NXN_PALETTE` - Full 7-color palette list
 
