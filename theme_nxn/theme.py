@@ -33,9 +33,9 @@ def theme_nxn(base_size=11, base_family=""):
     return (
         theme_minimal(base_size=base_size, base_family=base_family) +
         theme(
-            # Set background to white instead of transparent
+            # Set background to white instead of transparent with no borders
             panel_background=element_rect(fill="white", color=None),
-            plot_background=element_rect(fill="white", color=None),
+            plot_background=element_rect(fill="white", color=None, size=0),
             
             # Use charcoal instead of black for text elements
             text=element_text(color=charcoal),
